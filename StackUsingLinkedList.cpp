@@ -67,26 +67,3 @@ public:
 
         }//return top->data;
     }
-
-    //isEmpty operation: Check if the stack is empty
-    bool isEmpty()
-    {
-        return top == NULL;
-    }
-};
-
-
-int main()
-{
-    stack s;
-    int choice = 0;
-    int value;
-    
-while (choice !=5)
-{
-    cout << "1.push\n";
-    cout << "2.pop\n;
-    cout << "3.peek\n;
-    cout << "4.exit\n" << endl;
-    cin >> choice;
-
