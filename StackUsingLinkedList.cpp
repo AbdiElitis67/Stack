@@ -47,30 +47,3 @@ public:
         top = top->next;
         cout << "Pop value: " << temp->data << endl;
     }
-
-    //peel/top operation: Retrive the value of the topest element without removing
-    void peek()
-    {
-        if (top == NULL)
-        {
-            cout << "List is Empty." << endl;
-        }
-        else
-        {
-            Node *current = top;
-            while (current != NULL)
-            {
-                cout << current->data << " ";
-                current = current->next;
-            }
-            cout << endl;
-
-        }//return top->data;
-    }
-
-    //isEmpty operation: Check if the stack is empty
-    bool isEmpty()
-    {
-        return top == NULL;
-    }
-};
