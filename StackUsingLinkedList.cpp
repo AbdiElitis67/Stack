@@ -89,3 +89,21 @@ while (choice !=5)
     cout << "3.peek\n;
     cout << "4.exit\n" << endl;
     cin >> choice;
+
+    switch (choice)
+    {
+    case 1:
+        cout << "Enter value to push: ";
+        cin >> value;
+        s.push(value);
+        break;
+    case 2:
+        if (!stack.isEmpty())
+        {            
+            s.pop();
+        }
+        else
+        {
+            cout << "Stack is empty" << endl;
+        }
+        break;
