@@ -107,3 +107,25 @@ while (choice !=5)
             cout << "Stack is empty" << endl;
         }
         break;
+    case 3:
+        if (!stack.isEmpty())
+        {
+            s.peek();
+        }
+        else
+        {
+            cout << "Stack is empty" << endl;
+        }
+        break;
+
+    case 4:
+        cout << "Exiting..." << endl;
+        break;
+    default:
+        cout << "Invalid choice!" << endl;
+        break;
+    }
+    cout << endl;
+}
+return 0;
+}; 
